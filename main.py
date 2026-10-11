@@ -10,6 +10,7 @@ import os
 import re
 import sys
 import json
+from datetime import timedelta
 from html import escape
 from datetime import datetime
 from dataclasses import dataclass, field
@@ -659,17 +660,19 @@ def main():
         print("  ✅ No changes since last check.")
         subject = f"BMS Status: {movie_info['name']} - showtimes still detected"
 
-    # Send a Telegram update on every workflow run while matching showtimes
-    # exist, even when the state has not changed. The workflow runs every
-    # 30 minutes, so this repeats the Telegram message approximately every
-    # 30 minutes until no matching showtimes are found.
-    telegram_changes = changes or [
-        "No new changes since the previous check; matching showtimes are still listed below."
-    ]
-    telegram_message = build_telegram_message(
-        subject, telegram_changes, filtered, movie_info
-    )
-    send_telegram_message(telegram_message)
+    # Once the selected theatre/time/date filters return any showtimes,
+    # send a Telegram message on EVERY workflow run. Do not throttle routine
+    # status messages: the user explicitly wants an update on every run.
+    if filtered:
+        telegram_changes = changes or [
+            "No new changes since the previous check; matching showtimes are still listed below."
+        ]
+        telegram_message = build_telegram_message(
+            subject, telegram_changes, filtered, movie_info
+        )
+        send_telegram_message(telegram_message)
+    else:
+        print("  ℹ️  No showtimes match the selected filters; Telegram not sent.")
 
     # Print current status
     print(f"\n  Current status ({len(filtered)} shows):")
