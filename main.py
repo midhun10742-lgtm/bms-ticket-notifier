@@ -32,6 +32,8 @@ CONFIG = {
 RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
 RESEND_TO_EMAIL = os.getenv("RESEND_TO_EMAIL", "")
 RESEND_FROM_EMAIL = os.getenv("RESEND_FROM_EMAIL", "aviiciii@resend.dev")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "").strip()
 
 STATE_FILE = "bms_state.json"
 
@@ -522,6 +524,55 @@ def send_email(subject, changes, shows, movie_info):
 
 
 # ──────────────────────────────────────────────────────────────────────
+# TELEGRAM NOTIFICATION
+# ──────────────────────────────────────────────────────────────────────
+def send_telegram_message(message):
+    """Send a Telegram notification using credentials from environment."""
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        print("  ⚠️  Skipping Telegram — TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not set.")
+        return False
+
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    try:
+        # Telegram messages are limited to 4096 characters.
+        payload = {
+            "chat_id": TELEGRAM_CHAT_ID,
+            "text": message[:4000],
+            "disable_web_page_preview": True,
+        }
+        resp = requests.post(url, json=payload, timeout=10)
+        resp.raise_for_status()
+        print("  ✅ Telegram message sent")
+        return True
+    except requests.RequestException as e:
+        print(f"  ❌ Telegram message failed: {e}")
+        if getattr(e, "response", None) is not None:
+            print(f"  Telegram response: {e.response.text}")
+        return False
+
+
+def build_telegram_message(subject, changes, shows, movie_info):
+    """Build a compact plain-text Telegram alert."""
+    now_str = datetime.now().strftime("%d %b %Y, %I:%M %p")
+    lines = [f"🎬 BMS Alert: {movie_info.get('name', 'Movie')}",
+             f"🕒 {now_str}", "", "⚡ Changes detected:"]
+    lines.extend(f"• {change}" for change in changes)
+    lines.extend(["", "📍 Current showtimes:"])
+    for show in shows:
+        categories = " | ".join(
+            f"{cat.name} ₹{cat.price} ({_cat_status_label(cat.status)})"
+            for cat in show.categories
+        )
+        details = f"{show.venue_name} — {show.time}"
+        if show.date_code:
+            details += f" [{show.date_code}]"
+        lines.append(f"• {details}: {categories}")
+
+    lines.extend(["", f"🔗 {CONFIG['url']}"])
+    return "\n".join(lines)
+
+
+# ──────────────────────────────────────────────────────────────────────
 # MAIN
 # ──────────────────────────────────────────────────────────────────────
 def main():
@@ -601,10 +652,12 @@ def main():
         print(f"\n  ⚡ {len(changes)} change(s) detected:")
         for c in changes:
             print(f"     {c}")
-        send_email(
-            f"BMS Alert: {movie_info['name']} - {len(changes)} change(s)",
-            changes, filtered, movie_info,
+        subject = f"BMS Alert: {movie_info['name']} - {len(changes)} change(s)"
+        send_email(subject, changes, filtered, movie_info)
+        telegram_message = build_telegram_message(
+            subject, changes, filtered, movie_info
         )
+        send_telegram_message(telegram_message)
     else:
         print("  ✅ No changes since last check.")
 
