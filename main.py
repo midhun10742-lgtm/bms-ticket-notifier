@@ -653,13 +653,23 @@ def main():
         for c in changes:
             print(f"     {c}")
         subject = f"BMS Alert: {movie_info['name']} - {len(changes)} change(s)"
+        # Email remains change-only to avoid repeated email alerts.
         send_email(subject, changes, filtered, movie_info)
-        telegram_message = build_telegram_message(
-            subject, changes, filtered, movie_info
-        )
-        send_telegram_message(telegram_message)
     else:
         print("  ✅ No changes since last check.")
+        subject = f"BMS Status: {movie_info['name']} - showtimes still detected"
+
+    # Send a Telegram update on every workflow run while matching showtimes
+    # exist, even when the state has not changed. The workflow runs every
+    # 30 minutes, so this repeats the Telegram message approximately every
+    # 30 minutes until no matching showtimes are found.
+    telegram_changes = changes or [
+        "No new changes since the previous check; matching showtimes are still listed below."
+    ]
+    telegram_message = build_telegram_message(
+        subject, telegram_changes, filtered, movie_info
+    )
+    send_telegram_message(telegram_message)
 
     # Print current status
     print(f"\n  Current status ({len(filtered)} shows):")
