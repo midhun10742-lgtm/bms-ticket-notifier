@@ -1,5 +1,390 @@
 {
-  "shows": {},
+  "shows": {
+    "VMHE|30731|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "0"
+    },
+    "VMHE|30731|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30732|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "0"
+    },
+    "VMHE|30732|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30733|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "0"
+    },
+    "VMHE|30733|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30734|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "0"
+    },
+    "VMHE|30734|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30735|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "1"
+    },
+    "VMHE|30735|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30741|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "1"
+    },
+    "VMHE|30741|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30746|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "1"
+    },
+    "VMHE|30746|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30751|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "2"
+    },
+    "VMHE|30751|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30736|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "2"
+    },
+    "VMHE|30736|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "1"
+    },
+    "VMHE|30742|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "2"
+    },
+    "VMHE|30742|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "1"
+    },
+    "VMHE|30747|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "2"
+    },
+    "VMHE|30747|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "1"
+    },
+    "VMHE|30752|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "2"
+    },
+    "VMHE|30752|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "3"
+    },
+    "VMHE|30737|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "2"
+    },
+    "VMHE|30737|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "1"
+    },
+    "VMHE|30743|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "2"
+    },
+    "VMHE|30743|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "2"
+    },
+    "VMHE|30748|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "2"
+    },
+    "VMHE|30748|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "1"
+    },
+    "VMHE|30753|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "2"
+    },
+    "VMHE|30753|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "3"
+    },
+    "VMHE|30738|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "08:00 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "1"
+    },
+    "VMHE|30738|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "08:00 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30744|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "08:00 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "1"
+    },
+    "VMHE|30744|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "08:00 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30749|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "08:00 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "1"
+    },
+    "VMHE|30749|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "08:00 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30754|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "08:00 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "1"
+    },
+    "VMHE|30754|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "08:00 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30739|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "1"
+    },
+    "VMHE|30739|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30745|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "1"
+    },
+    "VMHE|30745|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30750|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "1"
+    },
+    "VMHE|30750|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "0"
+    },
+    "VMHE|30755|20261015|SIGNATURE": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "SIGNATURE",
+      "price": "200.00",
+      "status": "2"
+    },
+    "VMHE|30755|20261015|ROYAL": {
+      "venue": "Vanitha Cineplex RGB Laser 4K 3D ATMOS: Edappally",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "ROYAL",
+      "price": "280.00",
+      "status": "1"
+    }
+  },
   "dates": {
     "20261015": "BOOKABLE",
     "20261016": "AVAILABLE",
