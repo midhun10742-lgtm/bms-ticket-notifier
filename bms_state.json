@@ -40,6 +40,38 @@
       "price": "200.00",
       "status": "3"
     },
+    "PVLC|46653|20261015|LUXE PRIME": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "06:05 AM",
+      "date": "20261015",
+      "cat": "LUXE PRIME",
+      "price": "800.00",
+      "status": "3"
+    },
+    "PVLC|46653|20261015|LUXE": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "06:05 AM",
+      "date": "20261015",
+      "cat": "LUXE",
+      "price": "750.00",
+      "status": "3"
+    },
+    "PVLC|46659|20261015|LUXE PRIME": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "08:40 AM",
+      "date": "20261015",
+      "cat": "LUXE PRIME",
+      "price": "800.00",
+      "status": "3"
+    },
+    "PVLC|46659|20261015|LUXE": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "08:40 AM",
+      "date": "20261015",
+      "cat": "LUXE",
+      "price": "750.00",
+      "status": "3"
+    },
     "PVLC|46665|20261015|RECLINER ROWS": {
       "venue": "PVR: Lulu, Kochi",
       "time": "09:30 AM",
@@ -78,6 +110,38 @@
       "date": "20261015",
       "cat": "CLASSIC ROWS",
       "price": "200.00",
+      "status": "3"
+    },
+    "PVLC|46654|20261015|LUXE PRIME": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "09:35 AM",
+      "date": "20261015",
+      "cat": "LUXE PRIME",
+      "price": "600.00",
+      "status": "3"
+    },
+    "PVLC|46654|20261015|LUXE": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "09:35 AM",
+      "date": "20261015",
+      "cat": "LUXE",
+      "price": "550.00",
+      "status": "3"
+    },
+    "PVLC|46660|20261015|LUXE PRIME": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "12:10 PM",
+      "date": "20261015",
+      "cat": "LUXE PRIME",
+      "price": "650.00",
+      "status": "3"
+    },
+    "PVLC|46660|20261015|LUXE": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "12:10 PM",
+      "date": "20261015",
+      "cat": "LUXE",
+      "price": "600.00",
       "status": "3"
     },
     "PVLC|46666|20261015|RECLINER ROWS": {
@@ -120,6 +184,38 @@
       "price": "200.00",
       "status": "3"
     },
+    "PVLC|46655|20261015|LUXE PRIME": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "01:05 PM",
+      "date": "20261015",
+      "cat": "LUXE PRIME",
+      "price": "600.00",
+      "status": "3"
+    },
+    "PVLC|46655|20261015|LUXE": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "01:05 PM",
+      "date": "20261015",
+      "cat": "LUXE",
+      "price": "550.00",
+      "status": "3"
+    },
+    "PVLC|46661|20261015|LUXE PRIME": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "03:40 PM",
+      "date": "20261015",
+      "cat": "LUXE PRIME",
+      "price": "650.00",
+      "status": "3"
+    },
+    "PVLC|46661|20261015|LUXE": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "03:40 PM",
+      "date": "20261015",
+      "cat": "LUXE",
+      "price": "600.00",
+      "status": "3"
+    },
     "PVLC|46667|20261015|RECLINER ROWS": {
       "venue": "PVR: Lulu, Kochi",
       "time": "04:30 PM",
@@ -158,6 +254,86 @@
       "date": "20261015",
       "cat": "CLASSIC ROWS",
       "price": "200.00",
+      "status": "3"
+    },
+    "PVLC|46656|20261015|LUXE PRIME": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "04:35 PM",
+      "date": "20261015",
+      "cat": "LUXE PRIME",
+      "price": "600.00",
+      "status": "3"
+    },
+    "PVLC|46656|20261015|LUXE": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "04:35 PM",
+      "date": "20261015",
+      "cat": "LUXE",
+      "price": "550.00",
+      "status": "3"
+    },
+    "PVLC|46662|20261015|LUXE PRIME": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "07:10 PM",
+      "date": "20261015",
+      "cat": "LUXE PRIME",
+      "price": "800.00",
+      "status": "3"
+    },
+    "PVLC|46662|20261015|LUXE": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "07:10 PM",
+      "date": "20261015",
+      "cat": "LUXE",
+      "price": "750.00",
+      "status": "3"
+    },
+    "PVLC|46657|20261015|LUXE PRIME": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "08:05 PM",
+      "date": "20261015",
+      "cat": "LUXE PRIME",
+      "price": "800.00",
+      "status": "3"
+    },
+    "PVLC|46657|20261015|LUXE": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "08:05 PM",
+      "date": "20261015",
+      "cat": "LUXE",
+      "price": "750.00",
+      "status": "3"
+    },
+    "PVLC|46663|20261015|LUXE PRIME": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "10:40 PM",
+      "date": "20261015",
+      "cat": "LUXE PRIME",
+      "price": "800.00",
+      "status": "3"
+    },
+    "PVLC|46663|20261015|LUXE": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "10:40 PM",
+      "date": "20261015",
+      "cat": "LUXE",
+      "price": "750.00",
+      "status": "3"
+    },
+    "PVLC|46658|20261015|LUXE PRIME": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "LUXE PRIME",
+      "price": "600.00",
+      "status": "3"
+    },
+    "PVLC|46658|20261015|LUXE": {
+      "venue": "PVR: Lulu, Kochi",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "LUXE",
+      "price": "550.00",
       "status": "3"
     },
     "PVMF|45025|20261015|RECLINER": {
