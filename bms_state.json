@@ -1,5 +1,454 @@
 {
-  "shows": {},
+  "shows": {
+    "PVMF|45053|20261015|RECLINER": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "800.00",
+      "status": "3"
+    },
+    "PVMF|45053|20261015|ELITE": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "ELITE",
+      "price": "390.00",
+      "status": "2"
+    },
+    "PVMF|45053|20261015|PRIME": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "PRIME",
+      "price": "330.00",
+      "status": "3"
+    },
+    "PVMF|45053|20261015|CLASSIC": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "270.00",
+      "status": "3"
+    },
+    "PVMF|45054|20261015|RECLINER": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "800.00",
+      "status": "3"
+    },
+    "PVMF|45054|20261015|ELITE": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "ELITE",
+      "price": "390.00",
+      "status": "3"
+    },
+    "PVMF|45054|20261015|PRIME": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "PRIME",
+      "price": "330.00",
+      "status": "3"
+    },
+    "PVMF|45054|20261015|CLASSIC": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "270.00",
+      "status": "3"
+    },
+    "PVMF|45055|20261015|RECLINER": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "800.00",
+      "status": "3"
+    },
+    "PVMF|45055|20261015|ELITE": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "ELITE",
+      "price": "390.00",
+      "status": "3"
+    },
+    "PVMF|45055|20261015|PRIME": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "PRIME",
+      "price": "330.00",
+      "status": "3"
+    },
+    "PVMF|45055|20261015|CLASSIC": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "270.00",
+      "status": "3"
+    },
+    "PVMF|45056|20261015|RECLINER": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "800.00",
+      "status": "3"
+    },
+    "PVMF|45056|20261015|ELITE": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "ELITE",
+      "price": "390.00",
+      "status": "3"
+    },
+    "PVMF|45056|20261015|PRIME": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "PRIME",
+      "price": "330.00",
+      "status": "3"
+    },
+    "PVMF|45056|20261015|CLASSIC": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "270.00",
+      "status": "3"
+    },
+    "PVMF|45058|20261015|RECLINER": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "800.00",
+      "status": "3"
+    },
+    "PVMF|45058|20261015|ELITE": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "ELITE",
+      "price": "390.00",
+      "status": "3"
+    },
+    "PVMF|45058|20261015|PRIME": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "PRIME",
+      "price": "330.00",
+      "status": "3"
+    },
+    "PVMF|45058|20261015|CLASSIC": {
+      "venue": "PVR: Forum Mall, Kochi",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "270.00",
+      "status": "3"
+    },
+    "PCVB|20979|20261015|RECLINER": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "440.00",
+      "status": "3"
+    },
+    "PCVB|20979|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20979|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "06:00 AM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20985|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "06:25 AM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20985|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "06:25 AM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20974|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "08:45 AM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20974|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "08:45 AM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20980|20261015|RECLINER": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "440.00",
+      "status": "3"
+    },
+    "PCVB|20980|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20980|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "09:30 AM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20975|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "12:10 PM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20975|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "12:10 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20981|20261015|RECLINER": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "440.00",
+      "status": "3"
+    },
+    "PCVB|20981|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20981|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "01:00 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20987|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "01:15 PM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20987|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "01:15 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20976|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "03:35 PM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20976|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "03:35 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20982|20261015|RECLINER": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "440.00",
+      "status": "3"
+    },
+    "PCVB|20982|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20982|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "04:30 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20988|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "04:45 PM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20988|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "04:45 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20977|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "07:00 PM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20977|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "07:00 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20983|20261015|RECLINER": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "08:00 PM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "440.00",
+      "status": "3"
+    },
+    "PCVB|20983|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "08:00 PM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20983|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "08:00 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20978|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "10:30 PM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20978|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "10:30 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20984|20261015|RECLINER": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "RECLINER",
+      "price": "440.00",
+      "status": "3"
+    },
+    "PCVB|20984|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20984|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "11:30 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    },
+    "PCVB|20990|20261015|CLASSIC PLUS": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "11:45 PM",
+      "date": "20261015",
+      "cat": "CLASSIC PLUS",
+      "price": "240.00",
+      "status": "3"
+    },
+    "PCVB|20990|20261015|CLASSIC": {
+      "venue": "PVR: Oberon Mall, Kochi",
+      "time": "11:45 PM",
+      "date": "20261015",
+      "cat": "CLASSIC",
+      "price": "200.00",
+      "status": "3"
+    }
+  },
   "dates": {
     "20261015": "BOOKABLE",
     "20261016": "AVAILABLE",
