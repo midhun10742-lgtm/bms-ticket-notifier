@@ -26,7 +26,15 @@ CONFIG = {
         "https://in.bookmyshow.com/movies/chennai/dhurandhar-the-revenge/buytickets/ET00478890"
     ),
     "dates": os.getenv("BMS_DATES", ""),          # comma-separated YYYYMMDD, empty = from URL
-    "theatre": os.getenv("BMS_THEATRE", ""),       # substring filter, empty = all
+    # Comma-separated theatre names; internally stored as a list.
+    # Example: BMS_THEATRES="PVR Lulu,INOX Forum,Vanitha Cineplex"
+    "theatres": [
+        name.strip()
+        for name in os.getenv(
+            "BMS_THEATRES", os.getenv("BMS_THEATRE", "")
+        ).split(",")
+        if name.strip()
+    ],  # empty list = all theatres
     "time_period": os.getenv("BMS_TIME", ""),      # e.g. "evening,night", empty = all
 }
 
@@ -269,10 +277,19 @@ def parse_shows(data):
 # ──────────────────────────────────────────────────────────────────────
 # FILTERING
 # ──────────────────────────────────────────────────────────────────────
-def filter_shows(shows, theatre_filter, time_periods, date_codes):
+def filter_shows(shows, theatre_filters, time_periods, date_codes):
     result = []
-    kws = [k.strip().lower() for k in theatre_filter.split(",")
-           if k.strip()] if theatre_filter else []
+
+    # Accept either a list of theatre names or a comma-separated string.
+    # An empty list/string means no theatre filtering (all theatres).
+    if isinstance(theatre_filters, str):
+        theatre_filters = theatre_filters.split(",")
+
+    kws = [
+        str(name).strip().lower()
+        for name in (theatre_filters or [])
+        if str(name).strip()
+    ]
     periods = [p.strip().lower() for p in time_periods.split(",")
                if p.strip()] if time_periods else []
     dates_set = set(d.strip() for d in date_codes.split(",")
@@ -633,7 +650,7 @@ def main():
     # Apply filters
     filtered = filter_shows(
         all_shows,
-        CONFIG["theatre"],
+        CONFIG["theatres"],
         CONFIG["time_period"],
         CONFIG["dates"],
     )
