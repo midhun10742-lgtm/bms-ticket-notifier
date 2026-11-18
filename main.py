@@ -466,50 +466,12 @@ def status_label(status):
 
 
 def print_telegram_chat_ids():
-    """Print chat IDs visible in pending Telegram bot updates, without acknowledging them."""
-    if not TELEGRAM_BOT_TOKEN:
-        print("  ⚠️ Telegram chat-ID lookup skipped: TELEGRAM_BOT_TOKEN is missing.")
-        return
+    """Print the Telegram chat/channel ID supplied through the configured secret."""
+    if TELEGRAM_CHAT_ID:
+        print(f"  📌 TELEGRAM_CHAT_ID from environment/secrets: {TELEGRAM_CHAT_ID}")
+    else:
+        print("  ⚠️ TELEGRAM_CHAT_ID is not set in the environment/secrets.")
 
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/getUpdates"
-    try:
-        response = requests.get(url, params={"timeout": 0}, timeout=10)
-        if not response.ok:
-            print(f"  ❌ Telegram getUpdates error {response.status_code}: {response.text[:300]}")
-            return
-
-        payload = response.json()
-        if not payload.get("ok"):
-            print(f"  ❌ Telegram getUpdates failed: {payload}")
-            return
-
-        chats = {}
-        for update in payload.get("result", []):
-            for update_type in (
-                "message", "channel_post", "edited_message",
-                "edited_channel_post", "my_chat_member", "chat_member",
-            ):
-                item = update.get(update_type, {})
-                chat = item.get("chat", {})
-                if chat and chat.get("id") is not None:
-                    chats[str(chat["id"])] = {
-                        "title": chat.get("title") or chat.get("username") or chat.get("first_name") or "Unknown",
-                        "type": chat.get("type", "unknown"),
-                    }
-
-        if not chats:
-            print("  ℹ️ Telegram chat-ID lookup: no pending updates containing chat details.")
-            print("     Send a message in the target chat/channel, then run the checker again.")
-            return
-
-        print("  📌 Telegram chat IDs found in pending updates:")
-        for chat_id, details in chats.items():
-            print(f"     chat_id={chat_id} | name={details['title']} | type={details['type']}")
-
-    except requests.RequestException as exc:
-        print(f"  ❌ Telegram chat-ID lookup request failed: {exc}")
-    except ValueError as exc:
-        print(f"  ❌ Telegram chat-ID lookup returned invalid JSON: {exc}")
 
 def send_telegram_message(message):
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
