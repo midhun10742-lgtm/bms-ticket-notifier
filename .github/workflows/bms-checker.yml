@@ -20,20 +20,7 @@ jobs:
           echo "=== Runner public IP ==="
           curl -s https://api.ipify.org
           echo
-      
-          echo "=== BookMyShow homepage ==="
-          curl -sS -o /tmp/bms-home.html \
-            -w "HTTP status: %{http_code}\n" \
-            https://in.bookmyshow.com/
-      
-          echo "=== BookMyShow API endpoint ==="
-          curl -sS -o /tmp/bms-api.html \
-            -w "HTTP status: %{http_code}\n" \
-            https://in.bookmyshow.com/api/movies-data/v4/showtimes-by-event/primary-dynamic
-      
-          echo "=== Response preview ==="
-          head -c 500 /tmp/bms-api.html
-          echo
+    
       - name: Checkout
         uses: actions/checkout@v6
 
