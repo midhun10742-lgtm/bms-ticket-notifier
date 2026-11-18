@@ -1,10 +1,11 @@
+
 name: BMS Ticket Checker
 
 on:
   schedule:
     # Every 30 minutes
     - cron: '*/30 * * * *'
-  workflow_dispatch:  # Manual trigger button
+  workflow_dispatch:
 
 jobs:
   check-tickets:
@@ -27,15 +28,30 @@ jobs:
 
       - name: Run checker
         env:
+          # Movie 1
+          BMS1_URL: ${{ vars.BMS1_URL }}
+          BMS1_DATES: ${{ vars.BMS1_DATES }}
+          BMS1_THEATRES: ${{ vars.BMS1_THEATRES }}
+          BMS1_TIME: ${{ vars.BMS1_TIME }}
+
+          # Movie 2
+          BMS2_URL: ${{ vars.BMS2_URL }}
+          BMS2_DATES: ${{ vars.BMS2_DATES }}
+          BMS2_THEATRES: ${{ vars.BMS2_THEATRES }}
+          BMS2_TIME: ${{ vars.BMS2_TIME }}
+
+          # Test mode
+          BMS_TEST_MODE: ${{ vars.BMS_TEST_MODE }}
+
+          # Resend
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          RESEND_TO_EMAIL: ${{ secrets.RESEND_TO_EMAIL }}
+          RESEND_TO_EMAIL: ${{ vars.RESEND_TO_EMAIL }}
+          RESEND_FROM_EMAIL: ${{ vars.RESEND_FROM_EMAIL }}
+
+          # Telegram
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
-          BMS_URL: ${{ vars.BMS_URL }}
-          BMS_DATES: ${{ vars.BMS_DATES }}
-          BMS_THEATRE: ${{ vars.BMS_THEATRE }}
-          BMS_TIME: ${{ vars.BMS_TIME }}
+
         run: uv run main.py
 
       - name: Commit updated state
